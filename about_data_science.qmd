@@ -1,0 +1,44 @@
+---
+title: "about_data_science"
+format: html
+editor: visual
+---
+
+## 1st task
+
+## What do you think being a data scientist is about?
+
+Being a data scientist is all about digging into data to find hidden insights that help make smart decisions. It involves a mix of stats, coding, and understanding the field you’re working in. You clean and analyze data, build models to predict trends, and communicate your findings to help guide business strategies. Essentially, it’s about turning raw data into useful stories that drive action and innovation.
+
+## What differences/similarities do you see between data scientists and statisticians?
+
+Data scientists and statisticians have a lot in common, but there are some key differences too. Both work with data and use statistical methods to analyze it, but data scientists often go beyond traditional stats. They use programming skills, work with big data, and apply machine learning to build predictive models. Statisticians typically focus more on theory and methodologies, ensuring the rigor and validity of their analyses. In essence, data scientists are like statisticians with a tech twist, blending stats with computer science to solve complex problems and make data-driven decisions.
+
+## How do you view yourself in relation to these two areas?
+
+As a statistician, I see myself as a specialist in the foundational theories and methods of analyzing data. My work is deeply rooted in ensuring the accuracy, reliability, and validity of data analyses through rigorous statistical techniques. While data scientists often branch out into programming and machine learning, my focus remains on the principles and methodologies that underpin all data analysis. However, I appreciate how data science builds on and extends these principles, applying them in innovative ways to tackle modern, data-intensive challenges. In essence, I see myself as providing the critical statistical backbone that supports and enhances the broader field of data science.
+
+## 2nd task
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+
+```
+
+```{r}
+#| echo: false
+plot(y)
+```
+
+Used knitr to add an image to my file.
+
+```{r}
+knitr::include_graphics("img/img1.png")
+
+```

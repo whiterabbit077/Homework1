@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about_data_science.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "about_data_science.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "about_data_science",
+    "section": "What do you think being a data scientist is about?",
+    "text": "What do you think being a data scientist is about?\nBeing a data scientist is all about digging into data to find hidden insights that help make smart decisions. It involves a mix of stats, coding, and understanding the field you’re working in. You clean and analyze data, build models to predict trends, and communicate your findings to help guide business strategies. Essentially, it’s about turning raw data into useful stories that drive action and innovation."
+  },
+  {
+    "objectID": "about_data_science.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "about_data_science.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "about_data_science",
+    "section": "What differences/similarities do you see between data scientists and statisticians?",
+    "text": "What differences/similarities do you see between data scientists and statisticians?\nData scientists and statisticians have a lot in common, but there are some key differences too. Both work with data and use statistical methods to analyze it, but data scientists often go beyond traditional stats. They use programming skills, work with big data, and apply machine learning to build predictive models. Statisticians typically focus more on theory and methodologies, ensuring the rigor and validity of their analyses. In essence, data scientists are like statisticians with a tech twist, blending stats with computer science to solve complex problems and make data-driven decisions."
+  },
+  {
+    "objectID": "about_data_science.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "about_data_science.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "about_data_science",
+    "section": "How do you view yourself in relation to these two areas?",
+    "text": "How do you view yourself in relation to these two areas?\nAs a statistician, I see myself as a specialist in the foundational theories and methods of analyzing data. My work is deeply rooted in ensuring the accuracy, reliability, and validity of data analyses through rigorous statistical techniques. While data scientists often branch out into programming and machine learning, my focus remains on the principles and methodologies that underpin all data analysis. However, I appreciate how data science builds on and extends these principles, applying them in innovative ways to tackle modern, data-intensive challenges. In essence, I see myself as providing the critical statistical backbone that supports and enhances the broader field of data science."
+  },
+  {
+    "objectID": "about_data_science.html#nd-task",
+    "href": "about_data_science.html#nd-task",
+    "title": "about_data_science",
+    "section": "2nd task",
+    "text": "2nd task\n\ny &lt;- density(iris$Sepal.Length)\n\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y        : num [1:512] 0.000232 0.000262 0.000296 0.000333 0.000373 ...\n $ bw       : num 0.274\n $ n        : int 150\n $ call     : language density.default(x = iris$Sepal.Length)\n $ data.name: chr \"iris$Sepal.Length\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\n\n\n\n\n\nUsed knitr to add an image to my file.\n\nknitr::include_graphics(\"img/img1.png\")"
+  }
+]
